@@ -171,7 +171,7 @@ Github can also host containers so we can publish our container there, to do tha
 
 Once you click on save it will show your token on the screen, this will be the only time you see if so if you close or refresh the window it will dissapear, but if this happens you can just delete the token and create a new one.
 
-Once you have copied the token then in the terminal enter this command, replacing `<token>` with the token you just generated:
+Once you have copied the token then in the terminal enter this command, replacing `<username>` and `<token>` with your username and token with the one you just generated:
 
 ```bash
 podman login ghcr.io -u <username> -p <token>

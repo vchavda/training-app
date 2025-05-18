@@ -174,7 +174,7 @@ Once you click on save it will show your token on the screen, this will be the o
 Once you have copied the token then in the terminal enter this command, replacing `<token>` with the token you just generated:
 
 ```bash
-podman login ghcr.io -u grimvoodoo -p <token>
+podman login ghcr.io -u <username> -p <token>
 ```
 
 If that worked then you should see `Login Succeeded!`

@@ -2,6 +2,20 @@
 
 This app is just an example app for showcasing github actions
 
+# Connect to Openshift
+
+Before we get started with this training app we want to get connected to openshift, to do that [login](https://cloud.ibm.com) and go to the openshift cluster under `containers` > `clusters` and click on the one called `two-day-course`
+
+This will open a new page which will show you an overview of the cluster, click on the `OpenShift web console` button at the top right.
+
+This will open up a new tab, now click on your name at the top right, then click on the `copy login command` This will take you to a new page with a `Display token` hyperlink, click on that and you will get the oc login command displayed, copy and paste that into your terminal to authenticate against the openshift cluster.
+
+Once you are authenticated you want to create a new project for yourself with the following command, replacing `<user>` with your name:
+
+```bash
+oc new-project <user>
+```
+
 # Setup
 
 ## Prerequisites

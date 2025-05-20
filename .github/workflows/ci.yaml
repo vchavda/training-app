@@ -40,6 +40,9 @@ jobs:
           done
 
       - name: Run API tests
+        run: pytest tests/test_app.py -v 
+        
+      - name: Run API tests
         run: pytest tests/test_app.py -v  
 
       - name: Teardown container

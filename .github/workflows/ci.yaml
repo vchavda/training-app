@@ -39,6 +39,9 @@ jobs:
             sleep 1
           done
 
+      - name: Run API tests
+        run: pytest tests/test_app.py -v  
+
       - name: Teardown container
         if: always()
         run: |

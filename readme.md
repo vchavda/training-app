@@ -1,4 +1,4 @@
-# Training app - Test Vijay
+# Training app - Test Vijay Chavda
 
 This app is just an example app for showcasing github actions
 
